@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jason.physicsequationssheetplus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TopicsActivity" />
+        <activity android:name=".EquationSheetActivity" />
+        <activity android:name=".KinamaticsActivity" />
+        <activity android:name=".Kinamatics1Activity" />
+        <activity android:name=".Kinamatics2Activity" />
+        <activity android:name=".Kinamatics3Activity" />
+        <activity android:name=".ForcesActivity" />
+        <activity android:name=".Kinamatics1ActivityStudent" />
+        <activity android:name=".TopicsActivityStudent" />
+        <activity android:name=".KinamaticsActivityStudent" />
+        <activity android:name=".ForcesActivityStudent"></activity>
+    </application>
+
+</manifest>

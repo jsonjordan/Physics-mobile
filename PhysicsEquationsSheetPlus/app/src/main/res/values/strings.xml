@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Physics Equations  Sheet Plus</string>
+    <string name="title_activity_topics">Equation Topics</string>
+    <string name="txtRules">Please select the unknown, then enter in the amounts for the knowns:</string>
+</resources>
